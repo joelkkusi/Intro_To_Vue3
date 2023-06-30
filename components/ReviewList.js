@@ -1,13 +1,13 @@
 add.component('review-list', {
-    props:{
+    props: {
         reviews: {
             type: Array,
             required: true
         }
     },
     template:
-    /*html*/
-    `
+        /*html*/
+        `
     <div class="review-container">
     <h3>Reviews</h3>
         <ul>

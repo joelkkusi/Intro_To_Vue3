@@ -6,7 +6,7 @@ app.component('review-form', {
     <label for="name">Name:</label>
     <input id="name" v-model="name">
 
-    <label for="review" v-model="review">Review:</label>      
+    <label for="review" v-model="review">Review:</label>
     <textarea id="review" v-model.number="rating"></textarea>
 
     <label for="rating">Rating:</label>
